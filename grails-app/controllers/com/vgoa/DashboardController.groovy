@@ -6,7 +6,11 @@ class DashboardController {
     	redirect(url:"/")
     }
 
-    def about() {
-    	redirect(view: "about")
-    }
+    def about() {}
+
+    def services() {}
+
+    def clients() {}
+
+    def contact() {}
 }

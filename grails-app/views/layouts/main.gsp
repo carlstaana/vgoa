@@ -14,14 +14,16 @@
 		<link rel="apple-touch-icon" sizes="114x114" href="${assetPath(src: 'apple-touch-icon-retina.png')}">
   		<asset:stylesheet src="application.css"/>
 		<asset:javascript src="application.js"/>
+		<g:javascript src="js-image-slider.js" />
 		<g:layoutHead/>
 	</head>
 	<body>
-		<div id="grailsLogo" role="banner"><a href="http://grails.org"><asset:image src="grails_logo.png" alt="Grails"/></a></div>
+		%{-- <div id="grailsLogo" role="banner"><a href="http://grails.org"><asset:image src="grails_logo.png" alt="Grails"/></a></div> --}%
+		<div id="grailsLogo" role="banner"><a href="http://grails.org"><g:img dir="images" file="vgoa-logo.png" width="100" height="100"/></a></div>
 		<div class="nav">
 			<ul>
 				<li><a href="${createLink(uri: '/')}">Home</a></li>
-				<li><a href="${createLink(uri: '/dashboard/about')}">About Us</a></li>
+				<li><g:link controller="dashboard" action="about">About Us</g:link></li>
 				<li><g:link controller="dashboard" action="services">Services</g:link></li>
 				<li><g:link controller="dashboard" action="clients">Clients</g:link></li>
 				<li><g:link controller="dashboard" action="contact">Contact Us</g:link></li>
