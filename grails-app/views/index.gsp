@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta name="layout" content="main"/>
-		<title>Welcome to Grails</title>
+		<title>VGOA - Home</title>
 		<style type="text/css" media="screen">
 			#status {
 				background-color: #eee;
@@ -119,5 +119,10 @@
 			</div>
 		</div> --}%
 		
+		<div id="sliderFrame">
+			<div id="slider">
+				
+			</div>
+		</div>
 	</body>
 </html>

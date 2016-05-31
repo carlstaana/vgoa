@@ -79,6 +79,10 @@
 				}
 			}
 		</style>
+		<link rel="stylesheet" href="${resource(dir: 'css', file: 'ninja-slider.css')}" type="text/css">
+		<g:javascript src="ninja-slider.js" />
+		<link rel="stylesheet" href="${resource(dir: 'css', file: 'thumbnail-slider.css')}" type="text/css">
+		<g:javascript src="thumbnail-slider.js" />
 	</head>
 	<body>
 		%{-- <a href="#page-body" class="skip"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
@@ -118,6 +122,97 @@
 				</ul>
 			</div>
 		</div> --}%
-		
+		<br/>
+		<br/>
+		<div>
+			<h1 style="color: red; text-align: center"><b>OUR MAIN CLIENTS</b></h1>
+			<table class="clients">
+				<tr>
+					<td><g:img file="jollibee-logo.png" width="120" height="120"/><br>
+						<i><b>JOLLIBEE FOODS CORPORATION</b><br>
+						Jollibee Plaza, Emerald Avenue,<br>
+						Ortigas Center, Pasig City</i>
+					</td>
+					<td><g:img file="chowking-logo.png" width="120" height="120"/><br>
+						<i><b>CHOWKING FOODS CORPORATION</b><br>
+						Jollibee Plaza, Emerald Ave.,<br>
+						Ortigas Center, Pasig City</i>
+					</td>
+				</tr>
+				<tr>
+					<td><g:img file="greenwich-logo.png" width="120" height="120"/><br>
+						<i><b>GREENWICH PIZZA CORPORATION</b><br>
+						Jollibee Plaza, Emerald Ave.,<br>
+						Ortigas Center, Pasig City</i>
+					</td>
+					<td><g:img file="redribbon-logo.png" width="250" height="120"/><br>
+						<i><b>RED RIBBON BAKESHOP</b><br>
+						Jollibee Plaza, Emerald Ave.,<br>
+						Ortigas Center, Pasig City.</i>
+					</td>
+				</tr>
+				<tr>
+					<td><g:img file="levis-logo.png" width="200" height="120"/><br>
+						<i><b>LEVI STRAUSS PHILIPPINES</b><br>
+						Pasong Tamo Extension, Makati City</i>
+					</td>
+					<td><g:img file="dockers-logo.png" width="200" height="120"/><br>
+						<i><b>DOCKERS PHILIPPINES</b><br>
+						Pasong Tamo Extension, Makati City</i>
+					</td>
+				</tr>
+				<tr>
+					<td><g:img file="amacc-logo.png" width="200" height="120"/><br>
+						<i><b>AMA COMPUTER COLLEGE</b><br>
+						AMA Building, No. 59 Panay Avenue,<br>
+						Quezon City</i>
+					</td>
+					<td><g:img file="villarica-logo.png" width="250" height="120"/><br>
+						<i><b>VILLARICA PAWNSHOP, INC.</b><br>
+						Araneta Center, Cubao, Quezon City</i>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div>
+			<h1 style="color: red; text-align: center;"><b>BILLBOARDS</b></h1><br/>
+		    <div style="width:1000px;padding-left: 15px">
+		        <div id="ninja-slider" style="float:left;">
+		            <div class="slider-inner">
+		                <ul>
+		                	<li><g:img file="BB.jpg" width="100%" heigth="100%"/></li>
+		                	<li><g:img file="BB2.jpg" width="100%" heigth="100%"/></li>
+		                	<li><g:img file="BB3.jpg" width="100%" heigth="100%"/></li>
+		                	<li><g:img file="BB4.jpg" width="100%" heigth="100%"/></li>
+		                	<li><g:img file="BB7.jpg" width="100%" heigth="100%"/></li>
+		                </ul>
+		                <div class="fs-icon" title="Expand/Close"></div>
+		            </div>
+		        </div>
+		        <div id="thumbnail-slider" style="float:left;">
+		            <div class="inner">
+		                <ul>
+		                    <li>
+		                        <g:img class="thumb" file="BB.jpg" width="100%" height="100%"/>
+		                    </li>
+		                    <li>
+		                        <g:img class="thumb" file="BB2.jpg" width="100%" height="100%"/>
+		                    </li>
+		                    <li>
+		                        <g:img class="thumb" file="BB3.jpg" width="100%" height="100%"/>
+		                    </li>
+		                    <li>
+		                        <g:img class="thumb" file="BB4.jpg" width="100%" height="100%"/>
+		                    </li>
+		                    <li>
+		                        <g:img class="thumb" file="BB7.jpg" width="100%" height="100%"/>
+		                    </li>
+		                </ul>
+		            </div>
+		        </div>
+		        <div style="clear:both;"></div>
+		    </div>
+		    <br/>
+		</div>
 	</body>
 </html>

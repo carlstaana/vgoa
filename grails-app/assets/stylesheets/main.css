@@ -40,7 +40,7 @@ body {
 	background: #ffffff;
 	color: #333333;
 	margin: 0 auto;
-	max-width: 960px;
+	max-width: 1000px;
 	overflow-x: hidden; /* prevents box-shadow causing a horizontal scrollbar in firefox when viewport < 960px wide */
 	   -moz-box-shadow: 0 0 0.3em #255b17;
 	-webkit-box-shadow: 0 0 0.3em #255b17;
@@ -48,8 +48,8 @@ body {
 }
 
 #grailsLogo {
-	background-color: #abbf78;
-	/*background-color: #ffffff;*/
+	/*background-color: #abbf78;*/
+	background-color: #ffffff;
 }
 
 /* replace with .no-boxshadow body if you have modernizr available */
@@ -88,6 +88,28 @@ img {
 	border: 0;
 }
 
+img.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
 /* GENERAL */
 
 #grailsLogo a {
@@ -109,7 +131,7 @@ img {
 }
 
 .footer {
-	background: #abbf78;
+	background: #FF6C6C;
 	color: #000;
 	clear: both;
 	font-size: 0.8em;
@@ -401,7 +423,7 @@ input:invalid:focus, select:invalid:focus, textarea:invalid:focus {
 /* TABLES */
 
 table {
-	border-top: 1px solid #DFDFDF;
+	/*border-top: 1px solid #DFDFDF;*/
 	border-collapse: collapse;
 	width: 100%;
 	margin-bottom: 1em;
@@ -424,6 +446,12 @@ td, th {
 	padding: 0.5em 0.6em;
 	text-align: left;
 	vertical-align: top;
+}
+
+.clients tr, .clients td {
+	text-align: center;
+	vertical-align: middle;
+	padding-bottom: 2em;
 }
 
 th {
@@ -478,7 +506,7 @@ th.desc a {
 }
 
 th:hover, tr:hover {
-	background: #E1F2B6;
+	/*background: #E1F2B6;*/
 }
 
 /* PAGINATION */
