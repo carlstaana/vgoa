@@ -176,15 +176,15 @@
 		</div>
 		<div>
 			<h1 style="color: red; text-align: center;"><b>BILLBOARDS</b></h1><br/>
-		    <div style="width:1000px;padding-left: 15px">
+		    <div style="width:1000px;margin-left: 20px">
 		        <div id="ninja-slider" style="float:left;">
 		            <div class="slider-inner">
 		                <ul>
-		                	<li><g:img file="BB.jpg" width="100%" heigth="100%"/></li>
-		                	<li><g:img file="BB2.jpg" width="100%" heigth="100%"/></li>
-		                	<li><g:img file="BB3.jpg" width="100%" heigth="100%"/></li>
-		                	<li><g:img file="BB4.jpg" width="100%" heigth="100%"/></li>
-		                	<li><g:img file="BB7.jpg" width="100%" heigth="100%"/></li>
+		                	<li><g:img file="BB.jpg" width="100%" height="100%"/></li>
+		                	<li><g:img file="BB2.jpg" width="100%" height="100%"/></li>
+		                	<li><g:img file="BB3.jpg" width="100%" height="100%"/></li>
+		                	<li><g:img file="BB4.jpg" width="100%" height="100%"/></li>
+		                	<li><g:img file="BB7.jpg" width="100%" height="100%"/></li>
 		                </ul>
 		                <div class="fs-icon" title="Expand/Close"></div>
 		            </div>

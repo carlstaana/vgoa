@@ -83,6 +83,7 @@
 		<g:javascript src="1/ninja-slider.js" />
 	</head>
 	<body>
+		<br/><br/>
 		<h1 style="color: red; text-align: center"><b>SERVICES</b></h1><br/>
 		<div style="margin-left: 1em; margin-right: 1em; border: 0px solid #cccccc">
 			<div style="margin: 1em">

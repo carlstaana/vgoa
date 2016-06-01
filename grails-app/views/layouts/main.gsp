@@ -21,7 +21,8 @@
 		%{-- <div id="grailsLogo" role="banner"><a href="http://grails.org"><asset:image src="grails_logo.png" alt="Grails"/></a></div> --}%
 		<div id="grailsLogo" role="banner">
 			%{-- <div style="float: left"> --}%
-				<a href="${createLink(uri: '/')}"><g:img dir="images" file="vgoa-logo.png" width="100" height="100"/></a>
+				<a href="${createLink(uri: '/')}"><g:img dir="images" file="vgoa-logo.png" width="120" height="120"/></a>
+				<div style="float: right; margin-top: 1.5em; background-color: #FF6C6C; width: 84.8%; height: 100px;">VILLA GAREZA OUTDOOR ADVERTISING</div>
 			%{-- </div> --}%
 			%{-- <div style="width: 80%; float:left">HAHAHAHA!</div>				 --}%
 		</div>
@@ -35,7 +36,7 @@
 			</ul>
 		</div>
 		<g:layoutBody/>
-		<div class="footer" role="contentinfo"></div>
+		<div class="footer" role="contentinfo" style="text-align: right"><p><i>Villa Gareza Outdoor Advertising | All rights reserved</i></p></div>
 		<div id="spinner" class="spinner" style="display:none;"><g:message code="spinner.alt" default="Loading&hellip;"/></div>
 	</body>
 </html>

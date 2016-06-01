@@ -81,52 +81,50 @@
 		</style>
 	</head>
 	<body>
+		<br/><br/>
 		<div>
-			<iframe
-			  width="400"
-			  height="300"
-			  frameborder="0" style="border:0"
-			  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDtM4oum21kzvjCvy8VHloXXdhKRPFDmQs
-			    &q=14.5814962,121.0324021&zoom=18" allowfullscreen>
-			</iframe>
-		</div>
-		%{-- <a href="#page-body" class="skip"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
-		<div id="status" role="complementary">
-			<h1>Application Status</h1>
-			<ul>
-				<li>App version: <g:meta name="app.version"/></li>
-				<li>Grails version: <g:meta name="app.grails.version"/></li>
-				<li>Groovy version: ${GroovySystem.getVersion()}</li>
-				<li>JVM version: ${System.getProperty('java.version')}</li>
-				<li>Reloading active: ${grails.util.Environment.reloadingAgentEnabled}</li>
-				<li>Controllers: ${grailsApplication.controllerClasses.size()}</li>
-				<li>Domains: ${grailsApplication.domainClasses.size()}</li>
-				<li>Services: ${grailsApplication.serviceClasses.size()}</li>
-				<li>Tag Libraries: ${grailsApplication.tagLibClasses.size()}</li>
-			</ul>
-			<h1>Installed Plugins</h1>
-			<ul>
-				<g:each var="plugin" in="${applicationContext.getBean('pluginManager').allPlugins}">
-					<li>${plugin.name} - ${plugin.version}</li>
-				</g:each>
-			</ul>
-		</div>
-		<div id="page-body" role="main">
-			<h1>Welcome to Grails</h1>
-			<p>Congratulations, you have successfully started your first Grails application! At the moment
-			   this is the default page, feel free to modify it to either redirect to a controller or display whatever
-			   content you may choose. Below is a list of controllers that are currently deployed in this application,
-			   click on each to execute its default action:</p>
-
-			<div id="controller-list" role="navigation">
-				<h2>Available Controllers:</h2>
-				<ul>
-					<g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">
-						<li class="controller"><g:link controller="${c.logicalPropertyName}">${c.fullName}</g:link></li>
-					</g:each>
-				</ul>
+			<h1 style="color: red; text-align: center"><b>CONTACT US</b></h1><br/>
+			<div style="float: left">
+				<table class="contacts">
+					<th colspan="2">Key Technical Staff</th>
+					<tr>
+						<td>
+							<g:img file="gareza-reynaldo.jpg" width="150" height="150"/><br/>
+							<em>MR. REYNALDO S. GAREZA</em><br/>Operations Manager<br/>Industrial Manager
+						</td>
+						<td>
+							<g:img file="bagac-rebecca.jpg" width="150" height="150"/><br/>
+							<em>MS. REBECCA F. BAGAC</em><br/>Finance Manager
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<g:img file="gareza-marie.jpg" width="150" height="150"/><br/>
+							<em>MS. MARIE B. GAREZA</em><br/>Design and Planning Manager
+						</td>
+						<td>
+							<g:img file="gareza-mezanine.jpg" width="150" height="150"/><br/>
+							<em>MS. MEZANINE B. GAREZA</em><br/>Sales and Marketing Manager<br/>Business Mgmt.
+						</td>
+					</tr>
+				</table>
 			</div>
-		</div> --}%
-		
+		</div>
+		<div style="float: right; margin-right: 1em">
+			<table>
+				<th>Site Map</th>
+				<tr>
+					<td>
+					<iframe
+					  width="400"
+					  height="400"
+					  frameborder="0" style="border:0"
+					  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDtM4oum21kzvjCvy8VHloXXdhKRPFDmQs
+					    &q=14.5814962,121.0324021&zoom=18" allowfullscreen>
+					</iframe>
+					<td>
+				</tr>
+			</table>
+		</div>
 	</body>
 </html>

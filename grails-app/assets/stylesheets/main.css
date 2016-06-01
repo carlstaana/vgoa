@@ -37,7 +37,11 @@ html * {
 }
 
 body {
-	background: #ffffff;
+	background-color: #ffffff;
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
 	color: #333333;
 	margin: 0 auto;
 	max-width: 1000px;
@@ -454,13 +458,18 @@ td, th {
 	padding-bottom: 2em;
 }
 
+.contacts tr, .contacts td {
+	text-align: center;
+	padding-bottom: 2em;
+}
+
 th {
-	background-color: #efefef;
-	background-image: -moz-linear-gradient(top, #ffffff, #eaeaea);
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(1, #eaeaea));
-	    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr = '#ffffff', EndColorStr = '#eaeaea');
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#ffffff', EndColorStr='#eaeaea')";
-	color: #666666;
+	/*background-color: #efefef;*/
+	/*background-image: -moz-linear-gradient(top, #ffffff, #eaeaea);*/
+	/*background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(1, #eaeaea));*/
+	    /*filter: progid:DXImageTransform.Microsoft.gradient(startColorStr = '#ffffff', EndColorStr = '#eaeaea');*/
+	/*-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#ffffff', EndColorStr='#eaeaea')";*/
+	/*color: #666666;*/
 	font-weight: bold;
 	line-height: 1.7em;
 	padding: 0.2em 0.6em;

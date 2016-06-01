@@ -12,7 +12,8 @@
 
 #thumbnail-slider div.inner {
     border-radius:3px;
-    background-color:#444;
+    /*background-color:#444;*/
+    background-color:transparent;
     padding:0 12px;
 
     /*the followings should not be changed */    
