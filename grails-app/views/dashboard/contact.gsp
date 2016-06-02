@@ -94,7 +94,7 @@
 						</td>
 						<td>
 							<g:img file="bagac-rebecca.jpg" width="150" height="150"/><br/>
-							<em>MS. REBECCA F. BAGAC</em><br/>Finance Manager
+							<em>MS. REBECCA B. GAREZA</em><br/>Finance Manager
 						</td>
 					</tr>
 					<tr>

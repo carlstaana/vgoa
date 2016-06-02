@@ -152,7 +152,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td><g:img file="levis-logo.png" width="200" height="120"/><br>
+					<td><g:img file="levis-logo.png" width="250" height="120"/><br>
 						<i><b>LEVI STRAUSS PHILIPPINES</b><br>
 						Pasong Tamo Extension, Makati City</i>
 					</td>

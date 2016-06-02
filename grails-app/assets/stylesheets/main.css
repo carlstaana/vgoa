@@ -135,8 +135,10 @@ img.bg {
 }
 
 .footer {
-	background: #FF6C6C;
-	color: #000;
+	/*background: #FF6C6C;*/
+	background: #1B205A;
+	/*color: #000;*/
+	color: white;
 	clear: both;
 	font-size: 0.8em;
 	margin-top: 1.5em;
