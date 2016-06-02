@@ -98,7 +98,7 @@
 	                <li>
 	            		<g:img file="machine001.jpg" width="100%" height="100%"/>
 	            		<div class="caption cap1">Laser Cutting and Engraving Machine</div>
-	                    <div class="caption cap1 cap2">Model 1290 (4tf x 8ft)</div>
+	                    <div class="caption cap1 cap2">Model 1290 (4ft x 8ft)</div>
 	                    <div class="caption">@colerise</div>
 	                </li>
 	                <li><g:img file="machine002.jpg" width="100%" height="100%"/>

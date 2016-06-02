@@ -22,7 +22,7 @@
 		<div id="grailsLogo" role="banner">
 			%{-- <div style="float: left"> --}%
 				<a href="${createLink(uri: '/')}"><g:img dir="images" file="vgoa-logo.png" width="120" height="120"/></a>
-				<div style="float: right; margin-top: 1.5em; background-color: #FF6C6C; width: 84.8%; height: 100px;">VILLA GAREZA OUTDOOR ADVERTISING</div>
+				<div style="float: right; margin-top: 1.5em; background-color: #1B205A; width: 84.8%; height: 100px; color: white">VILLA GAREZA OUTDOOR ADVERTISING</div>
 			%{-- </div> --}%
 			%{-- <div style="width: 80%; float:left">HAHAHAHA!</div>				 --}%
 		</div>
