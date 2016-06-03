@@ -17,16 +17,12 @@
 		<g:layoutHead/>
 	</head>
 	<body>
-		%{-- <g:img class="bg" file="bg.jpg"/> --}%
 		%{-- <div id="grailsLogo" role="banner"><a href="http://grails.org"><asset:image src="grails_logo.png" alt="Grails"/></a></div> --}%
-		<div id="grailsLogo" role="banner">
-			%{-- <div style="float: left"> --}%
-				<a href="${createLink(uri: '/')}"><g:img dir="images" file="vgoa-logo.png" width="120" height="120"/></a>
-				<div style="float: right; margin-top: 1.5em; background-color: #1B205A; width: 84.8%; height: 100px; color: white">VILLA GAREZA OUTDOOR ADVERTISING</div>
-			%{-- </div> --}%
-			%{-- <div style="width: 80%; float:left">HAHAHAHA!</div>				 --}%
+		<div id="grailsLogo" role="banner" style="width: 1000px; height: 100px">
+			<div style="background-color: #1B205A; height: 55px; color: white; padding: 10px; float: right; position: relative; width: 900px; margin-top: 1em; border: 5px solid rgba(0, 0, 0, 0.3);"><p style="font-size: 40px; display: table-cell; vertical-align: middle;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspVILLA GAREZA OUTDOOR ADVERTISING</p></div>
+			<div style="position: relative; top: -115px"><a href="${createLink(uri: '/')}"><g:img dir="images" file="vgoa-logo.png" width="120" height="120"/></a></div>
 		</div>
-		<div class="nav">
+		<div class="nav" style="position: relative; left: 130px; top: 2px; width: 850px">
 			<ul>
 				<li><a href="${createLink(uri: '/')}">Home</a></li>
 				<li><g:link controller="dashboard" action="about">About Us</g:link></li>

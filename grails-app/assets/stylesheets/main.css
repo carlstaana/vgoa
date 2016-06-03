@@ -145,6 +145,8 @@ img.bg {
 	margin-bottom: 3em;
 	padding: 1em;
 	min-height: 1em;
+	position: relative;
+	bottom: 10px;
 }
 
 .footer a {

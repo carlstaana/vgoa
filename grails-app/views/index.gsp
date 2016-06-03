@@ -79,6 +79,10 @@
 				}
 			}
 		</style>
+		<link rel="stylesheet" href="${resource(dir: 'css', file: 'ninja-slider.css')}" type="text/css">
+		<g:javascript src="ninja-slider.js" />
+		<link rel="stylesheet" href="${resource(dir: 'css', file: 'thumbnail-slider.css')}" type="text/css">
+		<g:javascript src="thumbnail-slider.js" />
 	</head>
 	<body>
 		%{-- <a href="#page-body" class="skip"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
@@ -118,11 +122,46 @@
 				</ul>
 			</div>
 		</div> --}%
-		
-		<div id="sliderFrame">
-			<div id="slider">
-				
-			</div>
-		</div>
+		<br/><br/>
+		<div style="width:960px;margin-left: 20px; margin-right: 20px">
+	        <div id="ninja-slider" style="float:left; width:600px">
+	            <div class="slider-inner">
+	                <ul>
+	                	<li><g:img file="JB.jpg" width="100%" height="100%"/></li>
+	                	<li><g:img file="CB1.jpg" width="100%" height="100%"/></li>
+	                	<li><g:img file="GW5.jpg" width="100%" height="100%"/></li>
+	                	<li><g:img file="GW4.jpg" width="100%" height="100%"/></li>
+	                	<li><g:img file="BB4.jpg" width="100%" height="100%"/></li>
+	                	<li><g:img file="BB7.jpg" width="100%" height="100%"/></li>
+	                	<li><g:img file="KR1.JPG" width="100%" height="100%"/></li>
+	                </ul>
+	            </div>
+	        </div>
+	        %{-- <div id="thumbnail-slider" style="float:left;">
+	            <div class="inner">
+	                <ul>
+	                    <li>
+	                        <g:img class="thumb" file="BB.jpg" width="100%" height="100%"/>
+	                    </li>
+	                    <li>
+	                        <g:img class="thumb" file="BB2.jpg" width="100%" height="100%"/>
+	                    </li>
+	                    <li>
+	                        <g:img class="thumb" file="BB3.jpg" width="100%" height="100%"/>
+	                    </li>
+	                    <li>
+	                        <g:img class="thumb" file="BB4.jpg" width="100%" height="100%"/>
+	                    </li>
+	                    <li>
+	                        <g:img class="thumb" file="BB7.jpg" width="100%" height="100%"/>
+	                    </li>
+	                </ul>
+	            </div>
+	        </div> --}%
+		    <div style="width: 340px; float: left; margin-left: 20px; word-wrap: break-word;">
+		    	<p><em>VILLA GAREZA OUTDOOR ADVERTISING</em> is an all – Filipino company organized in April 1989 in response to the growing needs of business communities for varied and sophisticated advertising services. Organized by a group of managers and engineers with extensive manufacturing, fabrications and marketing background, with technical training and management exposure. They came from a prestigious and leading private firm in the same line of business. <g:link controller="dashboard" action="about">More -></g:link></p>
+		    </div>
+	        <div style="clear:both;"></div>
+	    </div>
 	</body>
 </html>
