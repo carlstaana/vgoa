@@ -104,7 +104,7 @@
 						</td>
 						<td>
 							<g:img file="gareza-mezanine.jpg" width="150" height="150"/><br/>
-							<em>MS. MEZANINE B. GAREZA</em><br/>Sales and Marketing Manager<br/>Business Mgmt.
+							<em>MS. MEZANINE B. GAREZA</em><br/>Business Development and<br/>Marketing Manager<br/>
 						</td>
 					</tr>
 				</table>
@@ -123,6 +123,12 @@
 					    &q=14.5814962,121.0324021&zoom=18" allowfullscreen>
 					</iframe>
 					<td>
+				</tr>
+				<tr>
+					<td><b>Address:</b> #2 San Joaquin cor. San Rafael St.,<br/>Mandaluyong City</td>
+				</tr>
+				<tr>
+					<td><b>Landline No:</b> 656-7058 / 935-7861</td>
 				</tr>
 			</table>
 		</div>

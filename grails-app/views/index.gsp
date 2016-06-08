@@ -131,8 +131,9 @@
 	                	<li><g:img file="CB1.jpg" width="100%" height="100%"/></li>
 	                	<li><g:img file="GW5.jpg" width="100%" height="100%"/></li>
 	                	<li><g:img file="GW4.jpg" width="100%" height="100%"/></li>
-	                	<li><g:img file="BB4.jpg" width="100%" height="100%"/></li>
-	                	<li><g:img file="BB7.jpg" width="100%" height="100%"/></li>
+	                	<li><g:img file="Ck4.jpg" width="100%" height="100%"/></li>
+	                	<li><g:img file="INASAL01.png" width="100%" height="100%"/></li>
+	                	<li><g:img file="ICECREAM01.png" width="100%" height="100%"/></li>
 	                	<li><g:img file="KR1.JPG" width="100%" height="100%"/></li>
 	                </ul>
 	            </div>

@@ -19,7 +19,7 @@
 	<body>
 		%{-- <div id="grailsLogo" role="banner"><a href="http://grails.org"><asset:image src="grails_logo.png" alt="Grails"/></a></div> --}%
 		<div id="grailsLogo" role="banner" style="width: 1000px; height: 100px">
-			<div style="background-color: #1B205A; height: 55px; color: white; padding: 10px; float: right; position: relative; width: 900px; margin-top: 1em; border: 5px solid rgba(0, 0, 0, 0.3);"><p style="font-size: 40px; display: table-cell; vertical-align: middle;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspVILLA GAREZA OUTDOOR ADVERTISING</p></div>
+			<div style="background-color: #4285F4; height: 55px; color: white; padding: 10px; float: right; position: relative; width: 900px; margin-top: 1em; border: 5px solid rgba(0, 0, 0, 0.3);"><p style="font-size: 40px; display: table-cell; vertical-align: middle;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspVILLA GAREZA OUTDOOR ADVERTISING</p></div>
 			<div style="position: relative; top: -115px"><a href="${createLink(uri: '/')}"><g:img dir="images" file="vgoa-logo.png" width="120" height="120"/></a></div>
 		</div>
 		<div class="nav" style="position: relative; left: 130px; top: 2px; width: 850px">

@@ -135,8 +135,9 @@ img.bg {
 }
 
 .footer {
+	background: #4285F4;
 	/*background: #FF6C6C;*/
-	background: #1B205A;
+	/*background: #1B205A;*/
 	/*color: #000;*/
 	color: white;
 	clear: both;
