@@ -79,10 +79,10 @@
 				}
 			}
 		</style>
-		<link rel="stylesheet" href="${resource(dir: 'css', file: 'ninja-slider.css')}" type="text/css">
-		<g:javascript src="ninja-slider.js" />
-		<link rel="stylesheet" href="${resource(dir: 'css', file: 'thumbnail-slider.css')}" type="text/css">
-		<g:javascript src="thumbnail-slider.js" />
+		<link rel="stylesheet" href="${resource(dir: 'css', file: '4/ninja-slider.css')}" type="text/css">
+		<g:javascript src="4/ninja-slider.js" />
+		<link rel="stylesheet" href="${resource(dir: 'css', file: '4/thumbnail-slider.css')}" type="text/css">
+		<g:javascript src="4/thumbnail-slider.js" />
 	</head>
 	<body>
 		%{-- <a href="#page-body" class="skip"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
@@ -124,7 +124,7 @@
 		</div> --}%
 		<br/><br/>
 		<div style="width:960px;margin-left: 20px; margin-right: 20px">
-	        <div id="ninja-slider" style="float:left; width:600px">
+	        %{-- <div id="ninja-slider" style="float:left; width:600px">
 	            <div class="slider-inner">
 	                <ul>
 	                	<li><g:img file="JB.jpg" width="100%" height="100%"/></li>
@@ -136,8 +136,9 @@
 	                	<li><g:img file="ICECREAM01.png" width="100%" height="100%"/></li>
 	                	<li><g:img file="KR1.JPG" width="100%" height="100%"/></li>
 	                </ul>
+	                <div class="fs-icon" title="Expand/Close"></div>
 	            </div>
-	        </div>
+	        </div> --}%
 	        %{-- <div id="thumbnail-slider" style="float:left;">
 	            <div class="inner">
 	                <ul>
@@ -159,7 +160,62 @@
 	                </ul>
 	            </div>
 	        </div> --}%
-		    <div style="width: 340px; float: left; margin-left: 20px; word-wrap: break-word;">
+	        <div id='ninja-slider'>
+		        <div>
+		            <div class="slider-inner">
+		                <ul>
+		                    <li><g:img class="ns-img" file="JB.jpg"/></li>
+		                    <li><g:img class="ns-img" file="CB1.jpg"/></li>
+		                    <li><g:img class="ns-img" file="GW5.jpg"/></li>
+		                    <li><g:img class="ns-img" file="GW4.jpg"/></li>
+		                    <li><g:img class="ns-img" file="Ck4.jpg"/></li>
+		                    <li><g:img class="ns-img" file="INASAL01.png"/></li>
+		                    <li><g:img class="ns-img" file="ICECREAM01.png"/></li>
+		                    <li><g:img class="ns-img" file="KR1.JPG"/></li>
+		                </ul>
+		                <div class="fs-icon" title="Expand/Close"></div>
+		            </div>
+		            <div id="thumbnail-slider">
+		                <div class="inner">
+		                    <ul>
+		                        <li>
+		                            <g:img class="thumb" file="JB.jpg"/>
+		                            <!-- <span>0</span> -->
+		                        </li>
+		                        <li>
+		                            <g:img class="thumb" file="CB1.jpg"/>
+		                            <!-- <span>1</span> -->
+		                        </li>
+		                        <li>
+		                            <g:img class="thumb" file="GW5.jpg"/>
+		                            <!-- <span>2</span> -->
+		                        </li>
+		                        <li>
+		                            <g:img class="thumb" file="GW4.jpg"/>
+		                            <!-- <span>3</span> -->
+		                        </li>
+		                        <li>
+		                            <g:img class="thumb" file="Ck4.jpg"/>
+		                            <!-- <span>4</span> -->
+		                        </li>
+		                        <li>
+		                            <g:img class="thumb" file="INASAL01.png"/>
+		                            <!-- <span>5</span> -->
+		                        </li>
+		                        <li>
+		                            <g:img class="thumb" file="ICECREAM01.png"/>
+		                            <!-- <span>6</span> -->
+		                        </li>
+		                        <li>
+		                            <g:img class="thumb" file="KR1.JPG"/>
+		                            <!-- <span>7</span> -->
+		                        </li>
+		                    </ul>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		    <div style="width: 330px; float: left; margin-left: 20px; word-wrap: break-word; position: relative; bottom: 400px; left: 620px">
 		    	<p><em>VILLA GAREZA OUTDOOR ADVERTISING</em> is an all – Filipino company organized in April 1989 in response to the growing needs of business communities for varied and sophisticated advertising services. Organized by a group of managers and engineers with extensive manufacturing, fabrications and marketing background, with technical training and management exposure. They came from a prestigious and leading private firm in the same line of business. <g:link controller="dashboard" action="about">More -></g:link></p>
 		    </div>
 	        <div style="clear:both;"></div>
