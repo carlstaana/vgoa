@@ -44,7 +44,7 @@
 		<header>
 			<div class="navbar-fixed">
 				<nav>
-					<div class="nav-wrapper blue">
+					<div class="nav-wrapper blue darken-4">
 						<div style="margin-left: 20px; margin-right: 20px">
 							<div class="brand-logo left">
 								<a href="${createLink(uri: '/')}" class="brand-logo left" style="margin-left: 10px"><img src="images/vgoa-logo.png" style="width: 60px" /></a>
@@ -64,7 +64,7 @@
 			</div>
 		</header>
 		<main><g:layoutBody/></main>
-		<footer class="page-footer blue">
+		<footer class="page-footer blue darken-4">
           <div class="container">
             <div class="row">
               <div class="col l6 s12">

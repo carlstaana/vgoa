@@ -159,7 +159,7 @@
 					<h1 style="color: red; text-align: center"><b>OUR MAIN CLIENTS</b></h1>	
 				</div>
 			</div>
-			<g:each status="i" in="${clients.images}">
+			%{-- <g:each status="i" in="${clients.images}">
 				<div class="row">
 					<div class="col s6 center">
 						<div class="row">
@@ -179,7 +179,7 @@
 						</div>
 					</div>
 				</div>
-			</g:each>
+			</g:each> --}%
 				%{-- <h1 style="color: red; text-align: center"><b>OUR MAIN CLIENTS</b></h1>
 				<table class="clients">
 					<tr>
