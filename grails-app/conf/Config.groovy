@@ -129,6 +129,8 @@ log4j.main = {
            'org.hibernate',
            'net.sf.ehcache.hibernate'
 
+    info   'org.eclipse.jetty'   // jetty
+
     warn   'org.mortbay.log'
     
     debug  'grails.app'
